@@ -1,0 +1,18 @@
+Air Handling Unit (AHU) Troubleshooting Guide
+
+Problem: AHU is not supplying air after a power failure.
+
+Steps to Reset:
+
+1. Ensure that the main power supply to the AHU is switched ON.
+2. Check the emergency stop switch; if engaged, rotate it to the RESET position.
+3. Inspect the circuit breaker for any tripped conditions. If tripped, switch it back to ON.
+4. Verify that the control panel display is active. If not, check the wiring connections.
+5. Restart the AHU by pressing the START button on the control panel.
+6. Observe the airflow for 5 minutes and ensure it is consistent.
+7. If the problem persists, contact the maintenance supervisor and record the fault details.
+
+Important Notes:
+- Do not attempt repairs without authorization.
+- Always wear safety gear when accessing electrical panels.
+- Ensure all protective covers are secured after inspection.

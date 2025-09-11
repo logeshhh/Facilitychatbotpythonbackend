@@ -1,0 +1,31 @@
+Chiller Preventive Maintenance Checklist – Monthly
+
+1. Visual Inspection
+   - Check for any oil leaks or unusual sounds.
+   - Inspect refrigerant lines for insulation damage.
+   - Ensure that control panels are free from dust and moisture.
+
+2. Electrical Checks
+   - Measure supply voltage and current at motor terminals.
+   - Verify proper grounding.
+   - Inspect control wiring for wear and loose connections.
+
+3. Mechanical Checks
+   - Check compressor oil levels and refill if necessary.
+   - Examine belts and pulleys for alignment and tension.
+   - Inspect water pumps for leaks or wear.
+
+4. Operational Tests
+   - Run the chiller and record inlet/outlet temperatures.
+   - Verify that pressure gauges are within operating ranges.
+   - Test safety devices like pressure switches and flow sensors.
+
+5. Documentation
+   - Record all readings and observations in the maintenance log.
+   - Report any deviations from standard operating parameters.
+   - Schedule repairs if issues are detected.
+
+Safety Precautions:
+- Always isolate the electrical supply before maintenance.
+- Ensure all rotating parts are secured before testing.
+- Wear protective equipment such as gloves and safety glasses.
