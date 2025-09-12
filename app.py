@@ -1,4 +1,5 @@
 import os
+import subprocess
 from pathlib import Path
 import pickle
 import faiss
@@ -16,6 +17,11 @@ DATA_DIR = Path("data")
 CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", 900))
 TOP_K = int(os.getenv("TOP_K", 4))
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "mistral")
+
+# Run ingest.py at startup to build index
+print("Running ingest.py to build index...")
+subprocess.call(["python", "ingest.py"])
+print("Index built successfully.")
 
 # Load index and metadata
 index = faiss.read_index(str(INDEX_DIR / "index.faiss"))
@@ -55,7 +61,7 @@ Answer:"""
         "sources": [r["source"] for r in retrieved]
     }
 
-# Health check
+# Health check endpoint
 @app.get("/")
 def read_root():
     return {"message": "Facility Helpdesk API is running"}
