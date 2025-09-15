@@ -1,10 +1,7 @@
-fastapi>=0.95.0
-uvicorn>=0.22.0
-faiss-cpu==1.12.0
-sentence-transformers>=2.2.0
-python-dotenv>=1.0.0
-langchain>=0.3.27
-langchain-core>=0.3.76
-langchain-ollama>=0.3.7
-ollama>=0.5.3
-numpy>=1.25.0,<3.0
+fastapi>=0.101.1,<0.102.0       # compatible with Pydantic 2.x
+uvicorn[standard]==0.22.0       # async server, modern version
+numpy>=1.24.0,<1.26             # required by FAISS / sentence-transformers
+python-dotenv>=1.0.1,<2.0.0
+sentence-transformers==2.2.2     # small embeddings, low RAM
+langchain==0.3.27
+faiss-cpu==1.12.0               # optional for vector search
